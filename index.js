@@ -18,11 +18,11 @@ function sayHiToGrandma(hello){
 };
 
 function sayHiToGrandma(hello){
-  if('HELLO'.toUpperCase())
+  if('hello'.toUpperCase())
   {return 'YES INDEED!'}
 };
 
-function sayHiToGrandma(I love you,Grandma){
+function sayHiToGrandma(hello){
   if("I love you,Grandma")
   {return "I love you, too."}
 };
