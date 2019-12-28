@@ -22,7 +22,7 @@ function sayHiToGrandma(hello){
   {return 'YES INDEED!'}
 };
 
-function sayHiToGrandma(hello){
+function sayHiToGrandma(I love you,Grandma){
   if("I love you,Grandma")
   {return "I love you, too."}
 };
