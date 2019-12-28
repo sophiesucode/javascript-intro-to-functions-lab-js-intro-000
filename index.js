@@ -11,14 +11,17 @@ function whisper(HELLO){
 function logWhisper(HELLO){
   console.log('HELLO'.toLowerCase());
 }
+
 function sayHiToGrandma(hello){
   if('hello'.toLowerCase())
   {return "I can\'t hear you!"}
 };
+
 function sayHiToGrandma(hello){
   if('HELLO'.toUpperCase())
   {return 'YES INDEED!'}
 };
+
 function sayHiToGrandma(hello){
   if("I love you,Grandma")
   {return "I love you, too."}
