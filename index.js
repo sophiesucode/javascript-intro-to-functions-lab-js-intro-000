@@ -12,17 +12,8 @@ function logWhisper(HELLO){
   console.log('HELLO'.toLowerCase());
 }
 
-function sayHiToGrandma (hello) {
-  var cantAnswer = "I can't hear you!";
-  var yesAnswer = "YES INDEED!";
-  var loveAnswer = "I love you, too.";
-  if ('hello'.toLowerCase()==='hello') {
-    return cantAnswer;
-  }
-  else if ('hello'.toUpperCase()=== 'HELLO') {
-    return yesAnswer;
-  }
-  else if ('I love you, Grandma.'=== 'I love you, Grandma.') {
-    return loveAnswer;
-  }
+  function sayHiToGrandma(hello){
+    if ('hello' === 'hello'.toLowerCase()) return "I can't hear you!";
+    else if ('hello' === "I love you, Grandma.") return "I love you, too.";
+    else if ('HELLO' === hello.toUpperCase()) return "YES INDEED!";
 }
