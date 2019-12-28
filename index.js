@@ -17,10 +17,10 @@ function sayHiToGrandma (hello) {
   var yesAnswer = "YES INDEED!";
   var loveAnswer = "I love you, too.";
   if ('hello'.toLowerCase()==='hello') {
-    return yesAnswer;
+    return cantAnswer;
   }
   else if ('hello'.toUpperCase()=== 'HELLO') {
-    return cantAnswer;
+    return yesAnswer;
   }
   else if ('I love you, Grandma.'=== 'I love you, Grandma.') {
     return loveAnswer;
