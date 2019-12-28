@@ -17,7 +17,7 @@ function sayHiToGrandma (hello) {
   var yesAnswer = "YES INDEED!";
   var loveAnswer = "I love you, too.";
   if ('hello'.toLowerCase()) {
-    return cantAnswer;
+    return yesAnswer;
   }
   else if ('hello'.toUpperCase()) {
     return yesAnswer;
