@@ -20,7 +20,7 @@ function sayHiToGrandma (hello) {
     return yesAnswer;
   }
   else if ('hello'.toUpperCase()) {
-    return yesAnswer;
+    return cantAnswer;
   }
   else if ('I love you, Grandma.') {
     return loveAnswer;
