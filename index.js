@@ -13,10 +13,8 @@ function logWhisper(HELLO){
 }
 
   function sayHiToGrandma(hello){
-    if ('HELLO' === "HELLO".toLowerCase()) return "I can\'t hear you!";
-    else if ('hello' === "hello".toUpperCase()) return "YES INDEED!";
+    if ('HELLO' === "HELLO".toLowerCase(hello)) return "I can\'t hear you!";
+    else if ('hello' === "hello".toUpperCase(hello)) return "YES INDEED!";
     else if ('I love you, Grandma.' === "I love you, Grandma.") return "I love you, too.";
 }
-sayHiToGrandma("hello");
-sayHiToGrandma("HELLO");
-sayHiToGrandma("I love you, Grandma.");
+
