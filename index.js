@@ -17,5 +17,5 @@ function sayHiToGrandma(hello){
 };
 function sayHiToGrandma(hello){
   if('hello'.toUpperCase())
-  {return 'YES INDEED'}
+  {return 'YES INDEED!'}
 };
